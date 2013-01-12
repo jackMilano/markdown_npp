@@ -4,13 +4,16 @@
 
 This project provides a very simple user-defined language file for Notepad++ that does some basic syntax highlighting for Markdown texts. It does **not** render text from Markdown into HTML (but there are scripts that can do that, too, Google is your friend).
 
+@ianchanning additions: Created Twilight theme, imported Zenburn theme from [@Edditoria's fork](https://github.com/Edditoria/markdown_npp_zenburn)
 
 ## Usage
 
 Notepad++ allows you to add new languages by adding language definitions to a userDefineLang.xml file. Add the Markdown definition like this:
 
 1. Download the Markdown language definition file 
-   [userDefineLang.xml](https://github.com/thomsmits/markdown_npp/blob/master/userDefineLang.xml)
+   [default theme](https://github.com/ianchanning/markdown_npp/blob/master/userDefineLang.xml)
+   | [Twilight theme](https://github.com/ianchanning/markdown_npp/twilight_theme/blob/master/userDefineLang.xml)
+   | [Zenburn theme](https://github.com/ianchanning/markdown_npp/zenburn_theme/blob/master/userDefineLang.xml)
    from GitHub to your computer.
 2. Click Start > Run, and type (or paste in) `%APPDATA%\Notepad++`, then click OK.
    This will open the settings directory for Notepad++.
