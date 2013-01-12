@@ -11,9 +11,9 @@ This project provides a very simple user-defined language file for Notepad++ tha
 Notepad++ allows you to add new languages by adding language definitions to a userDefineLang.xml file. Add the Markdown definition like this:
 
 1. Download the Markdown language definition file 
-   [default theme](https://github.com/ianchanning/markdown_npp/blob/master/userDefineLang.xml)
-   | [Twilight theme](https://github.com/ianchanning/markdown_npp/twilight_theme/blob/master/userDefineLang.xml)
-   | [Zenburn theme](https://github.com/ianchanning/markdown_npp/zenburn_theme/blob/master/userDefineLang.xml)
+   [default theme](https://raw.github.com/ianchanning/markdown_npp/master/userDefineLang.xml)
+   | [Twilight theme](https://raw.github.com/ianchanning/markdown_npp/master/twilight_theme/userDefineLang.xml)
+   | [Zenburn theme](https://raw.github.com/ianchanning/markdown_npp/master/zenburn_theme/userDefineLang.xml)
    from GitHub to your computer.
 2. Click Start > Run, and type (or paste in) `%APPDATA%\Notepad++`, then click OK.
    This will open the settings directory for Notepad++.
