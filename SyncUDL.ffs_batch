@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FreeFileSync XmlType="BATCH">
+    <MainConfig>
+        <Comparison>
+            <Variant>ByTimeAndSize</Variant>
+            <HandleSymlinks>Ignore</HandleSymlinks>
+        </Comparison>
+        <SyncConfig>
+            <Variant>Update</Variant>
+            <CustomDirections>
+                <LeftOnly>right</LeftOnly>
+                <RightOnly>right</RightOnly>
+                <LeftNewer>right</LeftNewer>
+                <RightNewer>right</RightNewer>
+                <Different>right</Different>
+                <Conflict>right</Conflict>
+            </CustomDirections>
+            <DeletionPolicy>RecycleBin</DeletionPolicy>
+            <VersioningFolder Limit="-1"/>
+        </SyncConfig>
+        <GlobalFilter>
+            <Include>*</Include>
+            <Exclude>\System Volume Information\&#x0A;\$Recycle.Bin\&#x0A;\RECYCLER\&#x0A;\RECYCLED\&#x0A;\.git\</Exclude>
+            <TimeSpan Type="Inactive">0</TimeSpan>
+            <SizeMin Unit="Inactive">0</SizeMin>
+            <SizeMax Unit="Inactive">0</SizeMax>
+        </GlobalFilter>
+        <FolderPairs>
+            <Pair>
+                <Left>C:\Documents and Settings\jmasson\Mes documents\Git\markdown_npp\target</Left>
+                <Right>C:\Documents and Settings\jmasson\Application Data\Notepad++</Right>
+            </Pair>
+        </FolderPairs>
+        <OnCompletion/>
+    </MainConfig>
+    <BatchConfig>
+        <HandleError>Popup</HandleError>
+        <ShowProgress>true</ShowProgress>
+        <LogfileFolder Limit="0"/>
+    </BatchConfig>
+</FreeFileSync>
