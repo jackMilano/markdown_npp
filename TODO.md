@@ -18,5 +18,8 @@ Dark Orange:RGB	217	71	17	Hex:	#D94711
 Dark Red:	RGB	140	3	3	Hex:	#8C0303
 
 - ajouter caractères d'échappement Markdown (comme \` normal text)`
-- retours Bruno : thème blanc : ça ressort trop le orange, plutôt du bleu pour le **bold**, _italic_
+- retours Bruno : 
+	- thème blanc : ça ressort trop le orange, plutôt du bleu pour le **bold**, _italic_
+		Bleu pas mal pour les liens, `code` trop similaire à _italic_
 	- thème obsidian : cool, "je préfère"
+	- Nombres colorés "pollue" le texte
