@@ -17,7 +17,7 @@
 - `code`
 
 ## Bugs
-- You can't use proper `<html>`
-- *Spaces between bold / italic words*
-- (http://link.com "with Title optional title")
-- [Link](http://domain.com) There must be a space in the link text
+- `<html>` tags aren't highlighted
+- *Spaces between italic words (_only with_ the single asterisk syntax)*
+- _Styles that **should overlap** do not_
+- (http://example.net "with optional title not hightlighted")
