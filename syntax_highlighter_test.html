@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Syntax Higlighter Test</title>
+</head>
+<xmp theme="cerulean" style="display:none;">
+
+# Syntax Higlighter Test
+
+## Block elements :
+###### Headings 1-6 and alternate headings
+h1 title
+====
+h2 title
+----
+
+
+Overlapping styles :  
+
+normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal  
+_italic http://italic.example.net __bold and italic__ *italic* [italic link][link] **bold and italic** `italic code` italic_  
+*italic http://italic.example.net __bold and italic__ _italic_ [italic link][link] **bold and italic** `italic code` italic*  
+__bold http://bold.example.net *italic and bold* **bold** [bold link][link] _italic and bold_ `bold code` bold__  
+**bold http://bold.example.net *italic and bold* __bold__ [bold link][link] _italic and bold_ `bold code` bold**  
+`code http://example.net **bold** *italic* [link][link] __bold__ _italic_  code`  
+## title http://example.net **bold** *italic* [link][link] __bold__ _italic_ `code` title ##
+
+
+Links :  
+
+![image-link][link]
+
+[link](http://example.net "title")
+
+[link]: /no/link/here
+
+
+Lists :  
+
+- unordered list = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal
+- unordered list
+
+
++ unordered list = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal
++ unordered list
+
+
+* unordered list = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal
+* unordered list
+
+
+1. ordered list = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal
+2. ordered list
+
+Blockquotes :  
+
+> mail-style quote = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal  
+> mail-style quote
+
+	blockquote = normal _italic_ http://example.net __bold__ *italic* [link][link] **bold** `code` normal  
+	blockquote
+
+
+HTML :  
+<div>
+	<p> normal text </p>
+</div>
+
+## Known Bugs
+- `<html>` tags aren't highlighted
+- *Spaces between italic words (_only with_ the single asterisk syntax)*
+- _Styles that **should overlap** do not_
+- (http://example.net "with optional title not hightlighted")
+</xmp>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
