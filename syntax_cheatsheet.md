@@ -1,4 +1,4 @@
-﻿Syntax Cheatsheet:
+Syntax Cheatsheet:
 ==================
 
 
@@ -10,6 +10,7 @@ _italic_   __bold__
 Links  
 Inline:
 An [example](http://url.com/ "Title")
+
 Reference-style labels (titles are optional):
 An [example][id]. Then, anywhere
 else in the doc, define the link:
@@ -19,11 +20,13 @@ else in the doc, define the link:
   
 Images  
 Inline (titles are optional):
-![alt text](/path/img.jpg "Title")
+![alt text](./image.png "Title")
+![alt attribute text](./image.png "Title attribute text")
+
 Reference-style:
 ![alt text][id]
 
-[id]: /url/to/img.jpg "Title"
+[id]: ./image.png "Title"
 
 
 Headers  

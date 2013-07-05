@@ -14,7 +14,9 @@
 - *italic* / _italic_ , **bold** / __bold__
 - [Link text](http://domain.com) or <http://domain.com> or http://domain.com
 - ![Alt text](/path/to/img.jpg)
+- ![alt attribute text](./image.png "Title attribute text")
 - `code`
+- HTML comment: <!-- HTML comment -->
 
 ## Bugs
 - `<html>` tags aren't highlighted
